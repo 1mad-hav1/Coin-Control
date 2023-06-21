@@ -1,0 +1,35 @@
+.sign-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Image\ \(3\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+h2{
+  color: antiquewhite;
+}
+.sign-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white; 
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.form-field {
+  display: flex;
+  justify-content: flex-end;
+}
+

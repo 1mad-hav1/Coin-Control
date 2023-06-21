@@ -1,0 +1,17 @@
+.collaborators {
+    margin-top: 20px;
+  }
+  
+  .collaborator {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .collaboratorimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  

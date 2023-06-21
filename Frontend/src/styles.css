@@ -1,0 +1,82 @@
+.rainbow {
+    background-image: linear-gradient(45deg, #f3e7e9, #7d03ef, #b77fa0, #09f9a1, #0ef1f9, #94de0c, #ef37a6, #1408fc, #d6b2c6, #f3e7e9);
+    background-size: 200% 200%;
+    animation: rainbowGradient 5s linear infinite;
+  }
+  
+  @keyframes rainbowGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+.font1{
+  @font-face {
+    font-family: 'freshmannormal';
+    src: url('freshman-webfont.woff2') format('woff2'),
+         url('freshman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+.p1{
+font-family: 'Cinzel', serif;
+}
+.p2{
+  text-align: center;
+  font-size: large;
+  font-family: 'Orbitron', sans-serif;  
+  color: #f1f2f2;
+}
+.p9{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;  
+  color: #f1f2f2;
+}
+.p7{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: medium;
+}
+.p8{
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #f1f2f2;
+  font-size: 35px;
+}
+
+.p3{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.p4{
+    color: #f1f2f2;
+}
+.p5{
+    text-align: center;
+    font-size: large;
+    font-family: 'Cinzel', serif;
+    color: #f1f2f2;
+}
+.p10{
+  text-align: center;
+  font-size: large;
+  font-family: 'Cinzel', serif;
+  color: #000000;
+}
+
+.p11{
+  text-align: center;
+  font-size: large;
+  font-family: 'Cinzel', serif;
+  color: #000000;
+  align-items: center;
+}

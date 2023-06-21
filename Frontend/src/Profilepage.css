@@ -1,0 +1,14 @@
+.Profilepage {
+    min-height: 100vh;
+    text-align: center;
+    background-image: url("https://wallpapercave.com/dwp2x/wp8233588.jpg");
+    backface-visibility: 0.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 1;
+  
+  }
+  
+  

@@ -1,0 +1,40 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Image\ \(3\).jpg);
+  height: 100%;
+  background-size: cover;
+}
+
+.login-content {
+  text-align: center;
+  color: aliceblue;
+}
+
+.login-title {
+  color:color(from color srgb r g b);
+  margin-bottom: 2rem;
+}
+
+  h1 {
+    font-size: 50px;
+    font-family: 'Roboto';
+    color: #fffefe;
+  }
+  h2{
+    font-size: 30px;
+    font-family: 'Railway';
+  }
+
+
+
+.MuiFilledInput-root {
+  background-color: white;
+  color: #fffefe;
+}
+
+.MuiFilledInput-underline:before,
+.MuiFilledInput-underline:after {
+  border-bottom-color: white;
+}
